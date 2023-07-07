@@ -13,8 +13,6 @@
   },
   "dependencies": {
     "@leafac/rehype-shiki": "^2.2.1",
-    "@types/node": "18.15.11",
-    "@types/react": "18.0.33",
     "@types/react-dom": "18.0.11",
     "autoprefixer": "10.4.14",
     "eslint": "8.38.0",
@@ -32,7 +30,11 @@
     "remark-parse": "^10.0.1",
     "remark-rehype": "^10.1.0",
     "shiki": "^0.11.1",
-    "typescript": "5.0.4",
     "unified": "^10.1.2"
+  },
+  "devDependencies": {
+    "@types/node": "20.4.0",
+    "@types/react": "18.2.14",
+    "typescript": "5.1.6"
   }
 }
